@@ -9,7 +9,7 @@ pipeline {
   }
   tools {
     maven 'localMaven'
-    jdk 'OracleJDK8'
+    jdk 'localJdk'
   }
   stages {
     stage('Build') {
